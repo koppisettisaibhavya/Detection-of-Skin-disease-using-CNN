@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dermlens@webtool</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family:"Cursive";
+        }
+        body{
+            background-color: gainsboro;
+             letter-spacing: 1px;
+        }
+        p{
+         font-size:30px;
+         }
+        .container{
+            background:purple;
+            height:150px;
+            color:white;
+            padding-left: 650px;
+            padding-top:30px;
+            font-size:50px;
+            
+        }
+        .c1,.opt ul{
+            display:inline-flex;
+            list-style-type: none;
+        }
+        .frame1{
+            padding-top: 10px;
+            padding-left: 300px;
+            padding-right: 450px;
+            margin: 1px;
+          }
+        .f1{
+            width:950px;
+            height:890px;
+            border-width: thick;
+            background-color:white;
+            line-height: 30px;
+            border-radius: 9px;
+            padding-left: 15px;
+        } 
+        .post{
+            width:100%;
+            height:350px;
+            background-color: burlywood;
+        }
+        .btn{
+         margin-top:100px;
+         background-color: purple;color:white;font-size: 25px;width:200px;height:75px;border-radius:9px;
+         }
+    </style>
+</head>
+<body>
+   <div class="container">
+       <ul class="c1">
+           <li>
+           <i><center>Derm Lens</center></i>
+ </li>
+       </ul>
+
+   </div>
+   <div class="frame1">
+       <div class="f1">
+        <br>
+           <hr>
+           <div class="post">
+               <div class="inner">
+                   <br>
+              <form action="result" method="POST" enctype="multipart/form-data">
+                 <center><p>Upload image</p><center>
+                 <input class="file" type="file" name="img">
+                 
+                 <center><input  class="btn" type="submit" name="btn"></center>
+              </form>
+               </div> 
+           </div>
+           <br>
+         </div>
+   </div>
+</body>
+</html>
